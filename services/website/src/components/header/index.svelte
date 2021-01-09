@@ -28,9 +28,12 @@
 </script>
 
 <div class="my-8">
-	<a href="/" class="mb-5 text-center">
-		<img src="images/logo.png" alt="logo" class="mx-auto w-40 mb-8">
-	</a>
+	<div class="flex justify-center mb-5 ">
+		<a href="/" class="flex items-center">
+			<img src="images/logo.png" alt="logo" class="h-20">
+			<img src="images/logoType.png" alt="logo" class="h-10 ml-4">
+		</a>
+	</div>
 	<div class="flex justify-center text-center">
 		{#each items as item}
 			<a href="{item.href}" class="mx-2 text-blue-500 text-lg" class:active={item.href === '/'+segment}>
