@@ -1,4 +1,4 @@
-# Mike's blog
+# Empower.hk
 
 The source code for www.mikenikles.com, version 2.0.
 

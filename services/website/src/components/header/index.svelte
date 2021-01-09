@@ -9,23 +9,19 @@
 
   const items = [
 	  {
-		  name: "據點一杯茶",
-		  name_en: "Floating teatime",
+		  name: "文章分享",
 		  href: "/blog"
 	  },
 	  {
-		  name: "打開門",
-		  name_en: "Floating events",
+		  name: "活動日誌",
 		  href: "/event"
 	  },
 	  {
-		  name: "句點藝術群體",
-		  name_en: "Floating Projects Collective",
+		  name: "團隊成員",
 		  href: "/members"
 	  },
 	  {
-		  name: "我們",
-		  name_en: "About FPC",
+		  name: "使命宗旨",
 		  href: "/about"
 	  }
   ]
@@ -37,9 +33,8 @@
 	</a>
 	<div class="flex justify-center text-center">
 		{#each items as item}
-			<a href="{item.href}" class="mx-2" class:text-blue-500={item.href === '/'+segment}>
+			<a href="{item.href}" class="mx-2 text-blue-500 text-lg" class:font-bold={item.href === '/'+segment}>
 				<div>{item.name}</div>
-				<div class="text-sm">{item.name_en}</div>
 			</a>
 		{/each}
 	</div>
