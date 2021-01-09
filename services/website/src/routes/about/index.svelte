@@ -1,5 +1,16 @@
-<h1>we are FP</h1>
+<div class="container mx-auto px-4">
 
-Founded in 2010 and reinvented in 2015 by artist and art professor Linda C.H. Lai with a dozen of emerging artists, the Floating Projects (FP) occupied a 170m2 artistic production site in Wong Chuk Hang industrial area to answer the question: what can artists do with an empty unit in an industrial building with institutionally and physically defined constraints, and how do artists survive beyond the commercial gallery system and a public funds-dependent charity model? In August 2018, the Floating Projects Collective (FPC) moved into a new re-purposed industrial building in Shek Kip Mei’s JCCAC to drive a new phase FP 2.0, which remains a site of collaborative-individuated art experiments after an interdisciplinary and intermedia principle, and itself an art project that interrogates questions of space and being. The collective has grown from 12 to 17 members. We uphold rigorous mutual critique, and an approach to art-making that views a work as always in-progress with generative potentials. We persist in being a place where artists of varied generations could work together, meet in conversations and write about what we do.
-成立於2010年的「句點」於2015年由藝術家兼藝術教授黎肖嫻重組，發起新一輪的實驗，新加入十幾位才藝各不同的年青藝術創作者，進駐黃竹坑一工廈一個1800尺的「藝術工場」，命名為「據點。句點」。到底在一個土地用途受規管，祇有基本設置的空單位裡，除了標準白格子展覽空間或畫廊之外，還可以做些甚麼？這是我們走在一起的誘因，然後憑著好奇心、實驗的意決，對今時今日香港社會和藝壇，認定個人可作的特殊貢獻，試圖在商業畫廊格局和依賴官方定期資助的慈善式體制外另尋生存之道。2018年8月，「句點」群體轉移陣地，遷至石硤尾的舊工廈改建的藝術村，展開「據點。句點」2.0 (FP 2.0) 新一回合的三年實驗，仍堅守個體自主的協作，探索主體、存活的空間度向，互媒和跨學科的探討。句點群體鼓勵藝術家之間自發、雙向的評論與交流, 並倡導“持續延展式創作”的理念，視所有藝術創作為永遠在進行中，可持續張開，有延伸發展下去的潛質。我們尤其支持以研究為本的創作方法，強調發現、整合理論 。藝術活動是創新的參與和生活，與別人和社群連結，打破年齡資歷和背景的界限，分享經驗、資源、知識，同時透過小聚，研討會、工作坊、展覽及寫作等活動去提升創作的視野，打開更多創作和交流分享的門。
-L3-06D, Jockey Club Creative Arts Centre, 30 Pak Tin St, Shek Kip Mei, Kowloon 九龍石硤尾白田街30號 賽馬會創意藝術中心(JCCAC), L3-06D
+	<h1 class="text-4xl text-blue-500 mb-8">EMPOWER 使命宗旨</h1>
+
+	<div class="border-l-8 border-blue-500 pl-8 text-xl leading-7 text-gray-700">
+
+		<p class="mb-4">Empower由一群懷抱夢想與理想，追求不平凡人生的平凡人組成。</p>
+
+		<p class="mb-4">如馬雲所說，夢想，每個人年輕的時候都有過，需要以堅持與行動來澆灌；理想，是一批人共同堅定一件事，有思想有計劃有行動，一步步變成現實。</p>
+
+		<p class="mb-4">在追尋夢想與理想的過程中，需要走出安舒區，不斷提升自己。Empower致力融匯各方智慧，透過組織名人面對面、讀書會、藝術與歷史文化展覽導賞等活動，舉辦營養健美等課程，由內而外增進知識與見識，豐富涵養與素養，全面提升身心靈健康，讓我們成為更好的自己，Empower Ourselves！</p>
+
+		<p class="mb-4">在結伴同行的路上，「Empower人」冀以生命影響生命，點燃彼此的生命活力，並以仁愛之心貢獻社會，愛澤承傳，Empower our Community，Empower the World！</p>
+	</div>
+
+</div>
