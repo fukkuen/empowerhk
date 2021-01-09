@@ -18,7 +18,7 @@
 	  },
 	  {
 		  name: "團隊成員",
-		  href: "/members"
+		  href: "/team"
 	  },
 	  {
 		  name: "使命宗旨",
@@ -33,9 +33,15 @@
 	</a>
 	<div class="flex justify-center text-center">
 		{#each items as item}
-			<a href="{item.href}" class="mx-2 text-blue-500 text-lg" class:font-bold={item.href === '/'+segment}>
+			<a href="{item.href}" class="mx-2 text-blue-500 text-lg" class:active={item.href === '/'+segment}>
 				<div>{item.name}</div>
 			</a>
 		{/each}
 	</div>
 </div>
+
+<style>
+	.active {
+		@apply border-b-2 border-blue-500;
+	}
+</style>
