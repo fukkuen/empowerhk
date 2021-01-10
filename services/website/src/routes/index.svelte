@@ -1,18 +1,6 @@
 <script context="module">
-  export async function preload({ params, query }) {
-    const blog_promise = this.fetch(`blog.json`)
-    const event_promise = this.fetch(`event.json`)
-    const series_promise = this.fetch(`blog/tags/Quotidian%20diversions%20series.json`)
-
-	  const result = await Promise.all([blog_promise, event_promise, series_promise])
-	  const {posts} = await result[0].json()
-	  const {events} = await result[1].json()
-	  const res = await result[2].json()
-  	return {
-		  posts,
-		  events,
-		  blog_series: res.posts
-	  }
+  export async function preload({ params, quer }) {
+	  return this.redirect(302, '/event');
   }
 </script>
 

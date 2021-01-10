@@ -36,7 +36,7 @@
 	</div>
 	<div class="flex justify-center text-center">
 		{#each items as item}
-			<a href="{item.href}" class="mx-2 text-blue-500 text-lg" class:active={item.href === '/'+segment}>
+			<a href="{item.href}" class="mx-4 text-blue-500 text-ml" class:active={item.href === '/'+segment}>
 				<div>{item.name}</div>
 			</a>
 		{/each}
