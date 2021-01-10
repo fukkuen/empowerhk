@@ -6,7 +6,7 @@ createdAt: 2021-01-10
 category: ["be-our-guess"]
 event_start_date: "2021-01-23"
 event_end_date: ""
-tags: ["投資2021", "外滙", "bitcoin", "比特幣", "股票", "投資心法"]
+tags: ["投資2021", "外滙", "比特幣", "股票", "投資心法"]
 ---
 
 <script>
