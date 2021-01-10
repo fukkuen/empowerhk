@@ -11,13 +11,13 @@ const event_categories = ['be-our-guess', 'hiking', 'cultural', 'nutrition', 'fi
 const title_prompt = {
   type: "input",
   name: "blogPostTitle",
-  message: "What's the title? (e.g. How to deploy a Sapper app to Cloud Run)",
+  message: "What's the title?",
 }
 
 const summary_prompt = {
   type: "input",
   name: "blogPostSummary",
-  message: "What's the summary? (e.g. Learn the steps necessary to ...)",
+  message: "What's the summary?",
 }
 
 const create_date_prompt = {
@@ -44,11 +44,6 @@ const blog_prompts = [
     name: "blogPostAuthor",
     message: "Who is the author?",
     choices: ['melissa', 'joyce', 'king', 'mang', 'cliff', 'admin']
-  },
-  {
-    type: "input",
-    name: "coverCaption",
-    message: "The caption for the cover image (if any)"
   }
 ]
 
@@ -65,8 +60,13 @@ const event_prompts = [
   },
   {
     type: "input",
-    name: "eventEndDate",
-    message: "What's the event end date [YYYY-MM-DD]? (leave blank for single date event)"
+    name: "eventTime",
+    message: "What's the event time (any format)"
+  },
+  {
+    type: "input",
+    name: "eventLocation",
+    message: "What's the event location"
   }
 ]
 
