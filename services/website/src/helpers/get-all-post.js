@@ -20,15 +20,15 @@ export default (() => {
 		};
 	};
 
-	const getAllPosts = (post_type_dir) => {
+	const getAllPosts = (post_type_dir, sort_key = 'createdAt') => {
 		const names = fs.readdirSync(post_type_dir, { withFileTypes: true });
 		return names
 				.filter((dirent) => dirent.isDirectory())
 				.map(dirent => generatePost(dirent, post_type_dir))
 				.sort((a, b) =>
-						a.metadata.createdAt > b.metadata.createdAt
+						a.metadata[sort_key] > b.metadata[sort_key]
 								? -1
-								: a.metadata.createdAt < b.metadata.createdAt
+								: a.metadata[sort_key] < b.metadata[sort_key]
 								? 1
 								: 0
 				);

@@ -62,6 +62,7 @@
     <div class="flex-1">
       <div class="prose lg:prose-xl content break-words mx-auto" use:floatImage>
         <h2 class="text-xl">{post.metadata.title}</h2>
+        <h2 class="text-xl">{post.metadata.summary}</h2>
         <slot />
       </div>
     </div>
