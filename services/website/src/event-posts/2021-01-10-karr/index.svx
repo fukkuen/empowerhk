@@ -1,0 +1,19 @@
+---
+title: "karr"
+slug: "karr"
+summary: "karr desc"
+createdAt: 2021-01-10
+category: ["be-our-guess"]
+event_start_date: "2016-01-01"
+event_end_date: ""
+tags: []
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-01-10-${slug}`;
+</script>
+
+event content..
+
+![彈珠人競技枱]({assetsBasePath}/1.jpg "400")
+*the image caption*
