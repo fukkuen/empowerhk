@@ -17,6 +17,8 @@
 	}
 </script>
 
-{#each events as post}
-	<Preview {post}/>
-{/each}
+<div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12">
+	{#each events as post}
+		<Preview {post}/>
+	{/each}
+</div>

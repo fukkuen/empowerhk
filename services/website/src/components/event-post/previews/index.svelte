@@ -8,31 +8,33 @@
   }-${post.metadata.slug}/cover.jpg`;
 </script>
 
-<div class="mb-20">
-  <a href="event/{post.metadata.slug}" class="flex">
-    <div class="flex-shrink-0 w-40">
-      <img
-              src={coverImageBasePath}
-              loading="lazy"
-              alt="Cover picture for a blog post titled {post.metadata.title}" />
+<div>
+  <div class="text-right">
+    <a class="text-sm bg-purple-600 text-white px-4 folder"
+       href="/event/category/{post.metadata.category[0].slug}">{post.metadata.category[0].name}</a>
+  </div>
+  <a href="event/{post.metadata.slug}" class="grid grid-cols-8 md:grid-cols-1 shadow rounded-lg overflow-hidden">
+    <div
+            style="background-image:url({coverImageBasePath}); padding-top: 100%;"
+            class="fw bg-image col-span-3 md: col-span-1">
     </div>
-    <div class="fw ml-10">
-      <h4 class="text-2xl mb-4">{post.metadata.title}</h4>
-      <p>{post.metadata.event_start_date} to {post.metadata.event_end_date}</p>
-      <p class="mb-4 text-gray-700">{post.metadata.summary}</p>
+    <div class="p-4 bg-white col-span-5 col-span-1">
+      <h4 class="text-2xl mb-1 text-black">{post.metadata.title}</h4>
+      <h4 class="text-lg mb-4 text-gray-900">{post.metadata.summary}</h4>
+      <p class="text-blue-800">📅 <span class="ml-2">{post.metadata.event_start_date}</span></p>
       <p class="mb-4">
         {#each post.metadata.tags as t}
-          <a href="/teatime/tags/{t}" class="tag">#{t}</a>
+          <a href="/teatime/tags/{t}" class="text-xs text-gray-500 mr-2">#{t}</a>
         {/each}
       </p>
-
-      {#if post.metadata.category}
-        <p class="mb-4">
-          {#each post.metadata.category as c}
-            <a href="/event/category/{c.slug}" class="tag">#{c.name}</a>
-          {/each}
-        </p>
-      {/if}
     </div>
   </a>
 </div>
+
+<style>
+  .folder {
+    display: inline-flex;
+    border-radius: 1em .3em 0 0;
+    line-height: 2em;
+  }
+</style>

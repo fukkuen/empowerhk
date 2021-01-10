@@ -1,7 +1,7 @@
 import {event_categories} from "../../taxonomy";
 import getAllPosts from '../../helpers/get-all-post'
 
-const events = getAllPosts.getAllPosts('./src/event-posts');
+const events = getAllPosts.getAllPosts('./src/event-posts', 'event_start_date');
 
 const joinCategory = post => {
 	if (post.metadata.category) {

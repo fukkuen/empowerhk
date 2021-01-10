@@ -37,7 +37,7 @@
   <link href="prism.css" rel="stylesheet" />
 </svelte:head>
 
-<div class="container max-w-6xl mx-auto px-4 mb-20">
+<div class="container max-w-6xl mx-auto px-8 mb-20">
   <div
           class="w-full max-w-6xl mx-auto bg-white bg-cover bg-center mt-8 rounded"
           style="background-image:url('blog-posts/{post.metadata.createdAt.split('T')[0]}-{post.metadata.slug}/cover.jpg');
