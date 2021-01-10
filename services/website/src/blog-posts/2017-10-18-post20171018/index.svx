@@ -1,0 +1,26 @@
+---
+title: "post20171018"
+slug: "post20171018"
+summary: ""
+createdAt: 2017-10-18
+category: ["reflection"]
+author: "joyce"
+tags: []
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2017-10-18-${slug}`;
+</script>
+
+<div class="text-blue-700">
+	write your introduction here... (text in blue)
+</div>
+
+main content here...
+
+![彈珠人競技枱]({assetsBasePath}/1.jpg "400")
+*the image caption*
+
+<div class="footnote">
+	write your footnote here...
+</div>
