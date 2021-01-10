@@ -1,107 +1,68 @@
-export const categories = [
+export const event_categories = [
 	{
-		slug: 'art-notes',
-		name: '藝文談暢',
-		name_en: 'Art Notes',
-		description: '談藝術，談創作，回顧周圍看向前望。Art reviews and art criticism. Review on reviews. Critique on the practice of criticism. Back story to a performance. Free associations with a novel. Observations on the current milieu of art and social life. …'
+		slug: 'be-our-guess',
+		name: '名人面對面'
 	},
 	{
-		slug: 'coffee-fantasia',
-		name: '咖啡經',
-		name_en: 'Coffee Fantasia',
-		description: '個人沈溺可以是有趣的，只要分享，找你的「專家」同路人。咖啡，只是個起頭、代號…。又或你有呷一杯茶的瞬間可以吞吐的一個臨時想法。Everything about coffee… … Coffee plants. Coffee beans. Coffee plantation. Roasted beans. Fair trade. Genesis of coffee drinking. Coffee pots. Coffee cups. Coffee makers. Hand-crafted coffee. Coffee-drinking culture. Coffee and health. Coffee as medicine. Coffee as leisure. Discourse ownership of coffee culture. History of cafes. Politics of world produces. First generation coffee culture. Second generation coffee culture. Third generation coffee culture. Fourth generation coffee culture. Connoisseur perspective. Political history of coffee culture. Coffee academy. Barista. Cafes. Coffee furniture. Coffee-table books. … We are joking!!! Replace “coffee” with any noun — personal obsessions of yours. A tentative thought that may fuel up the slow sip of a cuppa.'
+		slug: 'hiking',
+		name: '遊山玩水'
 	},
 	{
-		slug: 'eat-well-drink-well-breathe-well',
-		name: '吃好喝好透心涼',
-		name_en: 'Eat Well Drink Well Breathe Well',
-		description: '最重要是可以繼續呼吸，腳下還有可站立的地，或許可以生根。好好照顧自己。Live well. Be nice to Earth. Food ethics. Anti-consumerist life-style. Good recipes to share. Good survival tips. Take good care of yourself, your body and your mind… …'
+		slug: 'cultural',
+		name: '文化導賞'
 	},
 	{
-		slug: 'field-notes',
-		name: '考察中',
-		name_en: 'FieldNotes',
-		description: '研究生的考察範圍、指向，是世界的未來的形骸，新知識的風向計，對現今時代的把脈。起家立說之前，往往是轉瞬即逝的珍寶 — 直覺、對問題的「肚腹」般的反應。我們要好好留著。完整的辯說，碎片，靈光一閃，大小故事，所見所聞，理念層次的穿線連點結網…。「在地」、「尋檔」、「書寫作為思考」等陸續有來。A network of ideas from doctoral researchers whose tentative thinking may value as much as well formed writings. Hear their voices. Michael Leung’s “ON LAND,” Vennes Cheng’s “THINK-PAD,” Lim Yeon-kyung’s “ACTING OUT” and more are arrivals…'
+		slug: 'nutrition',
+		name: '活學營養'
 	},
 	{
-		slug: 'personally-speaking',
-		name: '私物語',
-		name_en: 'Personally Speaking',
-		description: '發明你的字句，操練你的發聲，給未有名字的起個名，為碎片堆築一條路。Share it if we deserve it: thoughts on living and being, poetry, automatic writing… silences, speechlessness, noise, soundings… fragmentary thoughts in search of a path, elliptical sentiments, the unspeakable…'
-	},
-	{
-		slug: 'seriously-speaking',
-		name: '大聲發表',
-		name_en: 'Seriously Speaking ',
-		description: '心裡無雲，都總可以推理治情，開拓感知。水中有明鏡，明鏡在心中。又或者，有些事情你總是咬著不放。You deserve to be heard. Features, expository and argumentative pieces, in-depth commentary and research-based writing… … Our mind takes forms — thought paths, a statue, a floating object, a system of tales, …'
+		slug: 'fitness',
+		name: '健體運動'
 	}
 ]
 
 export const authors = [
 	{
-		slug: 'linda-lai',
-		name: 'Linda Lai'
+		slug: 'joyce',
+		name: 'Joyce Wong'
 	},
 	{
-		slug: 'lai-wai-leung',
-		name: 'LAI Wai-leung'
+		slug: 'melissa',
+		name: 'Melissa Wong'
 	},
 	{
-		slug: 'jess-lau',
-		name: 'Jess Lau'
+		slug: 'king',
+		name: 'King'
 	},
 	{
-		slug: 'kel-lok',
-		name: 'Kel Lok'
+		slug: 'admin',
+		name: 'Admin'
 	},
 	{
-		slug: 'wong-chun-hoi',
-		name: 'Wong Chun Hoi'
+		slug: 'cliff',
+		name: 'Cliff Wong'
 	},
 	{
-		slug: 'wong-fuk-kuen',
-		name: 'Wong Fuk Kuen'
-	},
-	{
-		slug: 'kin-choi-lam',
-		name: 'Kinchoi Lam'
+		slug: 'mang',
+		name: 'Mang Ng'
 	}
 ]
 
-export const event_categories = [
+export const categories = [
 	{
-		slug: 'artistic-production',
-		name: '實驗場',
-		name_en: 'Artistic Production'
+		slug: 'nutrition',
+		name: '營養隨筆'
 	},
 	{
-		slug: 'fp-outbound',
-		name: '句點在城中。據點外遊',
-		name_en: 'FP outbound'
+		slug: 'reflection',
+		name: '感悟隨筆'
 	},
 	{
-		slug: 'partnership',
-		name: '據點演繹 ',
-		name_en: 'Partnership'
+		slug: 'spiritual',
+		name: '心靈勵志'
 	},
 	{
-		slug: 'artistic-production',
-		name: '實驗場',
-		name_en: 'Artistic Production'
-	},
-	{
-		slug: 'stock-taking',
-		name: '點子上倉',
-		name_en: 'Stock taking'
-	},
-	{
-		slug: 'workshops',
-		name: '工作室',
-		name_en: 'Workshops'
-	},
-	{
-		slug: 'wip-inspection',
-		name: '句點。定期發表 ',
-		name_en: 'WIP Inspection'
+		slug: 'fitness',
+		name: '運動筆記'
 	}
 ]

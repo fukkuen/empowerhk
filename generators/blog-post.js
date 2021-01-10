@@ -4,9 +4,9 @@ const is_event = process.env.EVENT === '1'
 
 const type = process.env.EVENT === '1' ? 'event' : 'blog'
 
-const categories = ['art-notes', 'coffee-fantasia', 'eat-well-drink-well-breathe-well', 'field-notes', 'personally-speaking', 'seriously-speaking']
+const categories = ['nutrition', 'reflection', 'spiritual', 'fitness']
 
-const event_categories = ['artistic-production', 'fp-outbound', 'partnership', 'artistic-production', 'stock-taking', 'workshops', 'wip-inspection']
+const event_categories = ['be-our-guess', 'hiking', 'cultural', 'nutrition', 'fitness']
 
 const title_prompt = {
   type: "input",
@@ -43,7 +43,7 @@ const blog_prompts = [
     type: "list",
     name: "blogPostAuthor",
     message: "Who is the author?",
-    choices: ['linda Lai', 'lai-wai-leung', 'jess-lau', 'kel-lok', 'wong-chun-hoi', 'wong-fuk-kuen', 'kin-choi-lam']
+    choices: ['melissa', 'joyce', 'king', 'mang', 'cliff', 'admin']
   },
   {
     type: "input",
