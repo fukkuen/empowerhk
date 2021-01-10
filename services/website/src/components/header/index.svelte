@@ -9,12 +9,12 @@
 
   const items = [
 	  {
-		  name: "文章分享",
-		  href: "/blog"
-	  },
-	  {
 		  name: "活動日誌",
 		  href: "/event"
+	  },
+	  {
+		  name: "文章分享",
+		  href: "/blog"
 	  },
 	  {
 		  name: "團隊成員",

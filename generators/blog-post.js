@@ -67,6 +67,11 @@ const event_prompts = [
     type: "input",
     name: "eventLocation",
     message: "What's the event location"
+  },
+  {
+    type: "input",
+    name: "eventFee",
+    message: "What's the event fee"
   }
 ]
 
