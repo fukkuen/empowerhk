@@ -5,7 +5,7 @@ summary: ""
 createdAt: 2019-09-20
 category: ["nutrition"]
 author: "joyce"
-tags: ["蘋果","消脂"，"清腸"，"排毒"]
+tags: ["蘋果","消脂","清腸","排毒"]
 ---
 
 <script>
