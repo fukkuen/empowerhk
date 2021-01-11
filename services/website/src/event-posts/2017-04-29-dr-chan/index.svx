@@ -1,0 +1,18 @@
+---
+title: "Dr Chan"
+slug: "dr-chan"
+summary: ""
+createdAt: 2017-04-29
+category: ["be-our-guess"]
+event_start_date: "2017-04-29"
+event_time: "19:30-21:30"
+event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館"
+event_fee: "$150 (包括有營晚餐)"
+tags: "壓力，正向心理學 ，靜觀"
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2017-04-29-${slug}`;
+</script>
+
+write your event here...
