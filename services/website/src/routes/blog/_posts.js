@@ -1,4 +1,5 @@
 import getAllPosts from '../../helpers/get-all-post'
+import processTagString from '../../helpers/process-tag-string'
 import {categories, authors} from "../../taxonomy";
 
 const posts = getAllPosts.getAllPosts('./src/blog-posts');
@@ -19,5 +20,6 @@ const joinAuthor = post => {
 
 posts.forEach(p => joinCategory(p))
 posts.forEach(p => joinAuthor(p))
+posts.forEach(p => processTagString(p))
 
 export default posts

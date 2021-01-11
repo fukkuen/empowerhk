@@ -34,6 +34,12 @@ const category_prompt = {
   choices: is_event ? event_categories : categories
 }
 
+const tag_prompt = {
+  type: "input",
+  name: "blogPostTag",
+  message: "What are the tags (separate by comma)?"
+}
+
 const blog_prompts = [
   title_prompt,
   summary_prompt,
@@ -44,7 +50,8 @@ const blog_prompts = [
     name: "blogPostAuthor",
     message: "Who is the author?",
     choices: ['melissa', 'joyce', 'king', 'mang', 'cliff', 'admin']
-  }
+  },
+  tag_prompt
 ]
 
 const event_prompts = [
@@ -72,7 +79,8 @@ const event_prompts = [
     type: "input",
     name: "eventFee",
     message: "What's the event fee"
-  }
+  },
+  tag_prompt
 ]
 
 module.exports = (plop) => {
