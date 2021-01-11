@@ -1,8 +1,7 @@
 # Empower.hk
 
-The source code for www.mikenikles.com, version 2.0.
-
-Check out the `v1.0.0` tag for the source code of the previous version, based on Ghost.org.
+The source code for empower.hk
+Inspired by https://www.mikenikles.com/
 
 ## Create a new blog post
 

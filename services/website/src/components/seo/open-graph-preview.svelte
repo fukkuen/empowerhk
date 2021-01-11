@@ -13,4 +13,4 @@
 <meta property="og:site_name" content="據點。句點">
 <meta property="og:title" content="{title}">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://http://floatingprojectscollective.net/{$page.path}">
+<meta property="og:url" content="empower.hk/{$page.path}">
