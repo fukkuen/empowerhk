@@ -8,7 +8,7 @@ event_start_date: "2019-09-21"
 event_time: "19:15-21:30"
 event_location: "旺角家樂坊15樓安利體驗館會議室B"
 event_fee: "$90（包三文治及飲品）"
-tags: ["紥籐"，"紥作"，"燈籠"]
+tags: ["紥籐","紥作","燈籠"]
 ---
 
 <script>
