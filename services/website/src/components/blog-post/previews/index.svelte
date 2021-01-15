@@ -7,6 +7,15 @@
   const coverImageBasePath = `blog-posts/${
     post.metadata.createdAt.split("T")[0]
   }-${post.metadata.slug}/cover.jpg`;
+
+  let cmp
+
+  (() => {
+    const date = post.metadata.createdAt.split("T")[0]
+    const slug = post.metadata.slug
+    const folder = `${date}-${slug}`
+    import(folder).then(module => cmp = module.default)
+  })()
 </script>
 
 <div class="mb-20">
@@ -37,4 +46,7 @@
       <PostAuthor {post}/>
     </div>
   </a>
+  {#if cmp}
+    <svelte:component this={cmp}/>
+  {/if}
 </div>

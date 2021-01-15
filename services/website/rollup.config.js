@@ -10,6 +10,7 @@ import { mdsvex } from "mdsvex";
 import rehypePicture from "rehype-picture";
 import config from "sapper/config/rollup.js";
 import pkg from "./package.json";
+import dynamicImportVariables from 'rollup-plugin-dynamic-import-variables'
 
 const mode = process.env.NODE_ENV;
 const dev = mode === "development";
@@ -35,6 +36,7 @@ export default {
     input: config.client.input(),
     output: config.client.output(),
     plugins: [
+      dynamicImportVariables(),
       replace({
         "process.browser": true,
         "process.env.NODE_ENV": JSON.stringify(mode),
@@ -90,6 +92,7 @@ export default {
     input: config.server.input(),
     output: config.server.output(),
     plugins: [
+      dynamicImportVariables(),
       replace({
         "process.browser": false,
         "process.env.NODE_ENV": JSON.stringify(mode),
