@@ -3,7 +3,7 @@ title: "5月讀書會主題：心靈·勵志"
 slug: "bookshare1705"
 summary: ""
 createdAt: 2017-05-06
-category: ["booksharing"]
+category: ["book-sharing"]
 event_start_date: "2021-01-15"
 event_time: "14:00-16:00"
 event_location: "旺角咖啡綠茶cafe"
