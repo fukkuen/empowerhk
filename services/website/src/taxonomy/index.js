@@ -18,6 +18,10 @@ export const event_categories = [
 	{
 		slug: 'fitness',
 		name: '健體運動'
+	},
+	{
+		slug: 'book-sharing',
+		name: '讀書手會'
 	}
 ]
 
