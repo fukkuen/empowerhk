@@ -4,7 +4,7 @@ slug: "bookshare1705"
 summary: ""
 createdAt: 2017-05-06
 category: ["book-sharing"]
-event_start_date: "2021-01-15"
+event_start_date: "2017-05-06"
 event_time: "14:00-16:00"
 event_location: "旺角咖啡綠茶cafe"
 event_fee: "自費在餐廳點單"
