@@ -1,5 +1,5 @@
 <script>
-  import A from "../../ui-elements/a.svelte";
+  import IMG from "../../ui-elements/bg-image.svelte";
   import PostAuthor from './post-author.svelte'
 
   export let post;
@@ -14,14 +14,12 @@
     <div class="p-4">
       <PostAuthor {post}/>
     </div>
-    <img
-            src={coverImageBasePath}
-            loading="lazy"
-            class="w-full"
-            alt="Cover picture for a blog post titled {post.metadata.title}" />
+    <div class="bg-gray-500">
+      <IMG src={coverImageBasePath}/>
+    </div>
     <div class="px-4 py-8">
       <div class="mb-4">
-        <p class="text-xs uppercase text-gray-600">{post.metadata.createdAt}</p>
+        <p class="text-sm uppercase text-gray-700 font-bold">{post.metadata.createdAt.split('T')[0]}</p>
         <h2 class="text-2xl mb-2 font-bold">{post.metadata.title}</h2>
         <h3 class="text-lg text-gray-700">{post.metadata.summary}</h3>
       </div>
