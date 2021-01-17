@@ -9,32 +9,38 @@
   }-${post.metadata.slug}/cover.jpg`;
 </script>
 
-<div class="mb-20">
-  <a href="blog/{post.metadata.slug}" class="flex">
-    <div class="flex-shrink-0 w-40">
-      <img
-              src={coverImageBasePath}
-              loading="lazy"
-              alt="Cover picture for a blog post titled {post.metadata.title}" />
+<div class="mb-4">
+  <a href="blog/{post.metadata.slug}" class="block bg-white shadow">
+    <div class="p-4">
+      <PostAuthor {post}/>
     </div>
-    <div class="fw ml-10">
-      <h4 class="text-2xl mb-4">{post.metadata.title}</h4>
-      <p class="mb-4 text-gray-700">{post.metadata.summary}</p>
+    <img
+            src={coverImageBasePath}
+            loading="lazy"
+            class="w-full"
+            alt="Cover picture for a blog post titled {post.metadata.title}" />
+    <div class="px-4 py-8">
+      <div class="mb-4">
+        <p class="text-xs uppercase text-gray-600">{post.metadata.createdAt}</p>
+        <h2 class="text-2xl mb-2 font-bold">{post.metadata.title}</h2>
+        <h3 class="text-lg text-gray-700">{post.metadata.summary}</h3>
+      </div>
+      <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae blanditiis enim eum facere harum, id itaque omnis pariatur ullam!</p>
+      <p class="text-blue-500 mb-4">Continue reading...</p>
       <p class="mb-4">
         {#each post.metadata.tags as t}
-          <a href="/blog/tags/{t}" class="tag">#{t}</a>
+          <a href="/blog/tags/{t}" class="post-tag">#{t}</a>
+        {/each}
+        {#each post.metadata.category as cat}
+          <a href="/blog/category/{cat.slug}" class="post-tag">#{cat.name}</a>
         {/each}
       </p>
-
-      {#if post.metadata.category}
-        <p class="mb-4">
-          {#each post.metadata.category as cat}
-            <a href="/blog/category/{cat.slug}" class="tag">#{cat.name}</a>
-          {/each}
-        </p>
-      {/if}
-
-      <PostAuthor {post}/>
     </div>
   </a>
 </div>
+
+<style>
+  .post-tag {
+    @apply text-sm text-blue-700 mr-1 bg-gray-200 rounded px-4 py-2 cursor-pointer;
+  }
+</style>
