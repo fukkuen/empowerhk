@@ -23,7 +23,7 @@
         <h2 class="text-2xl mb-2 font-bold">{post.metadata.title}</h2>
         <h3 class="text-lg text-gray-700">{post.metadata.summary}</h3>
       </div>
-      <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae blanditiis enim eum facere harum, id itaque omnis pariatur ullam!</p>
+      <p class="mb-2 leading-8 text-lg text-gray-700">{post.body}</p>
       <p class="text-blue-500 mb-4">Continue reading...</p>
       <p class="mb-4">
         {#each post.metadata.tags as t}
