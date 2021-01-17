@@ -37,47 +37,43 @@
   <link href="prism.css" rel="stylesheet" />
 </svelte:head>
 
-<div class="container max-w-6xl mx-auto px-8 mb-20">
-  <div
-          class="w-full max-w-6xl mx-auto bg-white bg-cover bg-center mt-8 rounded"
-          style="background-image:url('blog-posts/{post.metadata.createdAt.split('T')[0]}-{post.metadata.slug}/cover.jpg');
-      height: 75vh;" />
-  <div class="bg-white px-4 py-2 italic font-black">{post.metadata.coverCaption}</div>
+<div class="max-w-6xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+  <div class="col-span-3 bg-white">
 
-  <div class="flex mt-20">
-    <div class="flex-shrink-0 w-40">
-      <div class="mx-auto">
-        <div class="avatar big mx-auto"
-             style="background-image: url('/authors/{post.metadata.author.slug}.jpg')"></div>
-        <p class="text-black font-bold mx-auto mt-4 text-center">
-          {post.metadata.author.name}
-        </p>
+    <img src="blog-posts/{post.metadata.createdAt.split('T')[0]}-{post.metadata.slug}/cover.jpg"
+         class="w-full"
+         alt="cover"/>
 
-        <p>
-          {#each post.metadata.category as cat}
-            <span class="tag">{cat.name}</span>
-          {/each}
-        </p>
-
-        <p>
-          {new Date(post.metadata.createdAt).toLocaleDateString(undefined, {
-            weekday: 'long',
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-          })}
-        </p>
-      </div>
-    </div>
-
-    <div class="flex-1">
-      <div class="prose lg:prose-xl content break-words mx-auto" use:floatImage>
-        <h2 class="text-xl">{post.metadata.title}</h2>
-        <slot />
-      </div>
+    <div class="prose lg:prose-xl content break-words mx-auto px-4 py-8" use:floatImage>
+      <h2 class="text-xl">{post.metadata.title}</h2>
+      <slot />
+      <p>
+        {#each post.metadata.tags as t}
+          <a href="/blog/tags/{t}" class="post-tag">#{t}</a>
+        {/each}
+      </p>
     </div>
   </div>
-
+  <div class="col-span-1 bg-white p-4">
+    <div class="text-center">
+      <div class="avatar big mx-auto mb-4"
+           style="background-image: url('/authors/{post.metadata.author.slug}.jpg')"></div>
+      <p class="font-bold mb-4">
+        {post.metadata.author.name}
+      </p>
+      <p class="mb-4">
+        {new Date(post.metadata.createdAt).toLocaleDateString(undefined, {
+          weekday: 'long',
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric'
+        })}
+      </p>
+      {#each post.metadata.category as cat}
+        <span class="post-tag">{cat.name}</span>
+      {/each}
+    </div>
+  </div>
 </div>
 
 <ImageZoom />

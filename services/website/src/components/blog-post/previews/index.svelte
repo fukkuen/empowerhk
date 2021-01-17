@@ -36,9 +36,3 @@
     </div>
   </a>
 </div>
-
-<style>
-  .post-tag {
-    @apply text-sm text-blue-700 mr-1 bg-gray-200 rounded px-4 py-2 cursor-pointer;
-  }
-</style>
