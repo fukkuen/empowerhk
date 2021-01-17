@@ -3,6 +3,11 @@ import frontMatter from "front-matter";
 import readingTime from "reading-time";
 
 export default (() => {
+	const getBody = (body) => {
+		let no_script_tag_string = body.replace(/<script>\n.+\n<\/script>/gi, "")
+		return no_script_tag_string.substring(0,200) + '...'
+	}
+
 	const generatePost = (dirent, post_type_dir) => {
 		const postContent = fs.readFileSync(
 				`${post_type_dir}/${dirent.name}/index.svx`,
@@ -17,6 +22,7 @@ export default (() => {
 				...postFrontMatter.attributes,
 				readingTime: readingTime(postFrontMatter.body),
 			},
+			body: getBody(postFrontMatter.body)
 		};
 	};
 

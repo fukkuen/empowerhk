@@ -12,6 +12,10 @@
 		  white-space: nowrap;
   }
 
+  .post-tag {
+      @apply text-sm text-blue-700 mr-1 bg-gray-200 rounded px-4 py-2 cursor-pointer;
+  }
+
   .avatar {
 		  @apply h-12 w-12 rounded-full bg-cover bg-center flex-shrink-0 border-gray-300 border-2
   }

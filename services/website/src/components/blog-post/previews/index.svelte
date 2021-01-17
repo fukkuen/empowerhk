@@ -1,5 +1,5 @@
 <script>
-  import A from "../../ui-elements/a.svelte";
+  import IMG from "../../ui-elements/bg-image.svelte";
   import PostAuthor from './post-author.svelte'
 
   export let post;
@@ -9,32 +9,30 @@
   }-${post.metadata.slug}/cover.jpg`;
 </script>
 
-<div class="mb-20">
-  <a href="blog/{post.metadata.slug}" class="flex">
-    <div class="flex-shrink-0 w-40">
-      <img
-              src={coverImageBasePath}
-              loading="lazy"
-              alt="Cover picture for a blog post titled {post.metadata.title}" />
+<div class="mb-4">
+  <a href="blog/{post.metadata.slug}" class="block bg-white shadow">
+    <div class="p-4">
+      <PostAuthor {post}/>
     </div>
-    <div class="fw ml-10">
-      <h4 class="text-2xl mb-4">{post.metadata.title}</h4>
-      <p class="mb-4 text-gray-700">{post.metadata.summary}</p>
+    <div class="bg-gray-500">
+      <IMG src={coverImageBasePath}/>
+    </div>
+    <div class="px-4 py-8">
+      <div class="mb-4">
+        <p class="text-sm uppercase text-gray-700 font-bold">{post.metadata.createdAt.split('T')[0]}</p>
+        <h2 class="text-2xl mb-2 font-bold">{post.metadata.title}</h2>
+        <h3 class="text-lg text-gray-700">{post.metadata.summary}</h3>
+      </div>
+      <p class="mb-2 leading-8 text-lg text-gray-700">{post.body}</p>
+      <p class="text-blue-500 mb-4">Continue reading...</p>
       <p class="mb-4">
         {#each post.metadata.tags as t}
-          <a href="/blog/tags/{t}" class="tag">#{t}</a>
+          <a href="/blog/tags/{t}" class="post-tag">#{t}</a>
+        {/each}
+        {#each post.metadata.category as cat}
+          <a href="/blog/category/{cat.slug}" class="post-tag">#{cat.name}</a>
         {/each}
       </p>
-
-      {#if post.metadata.category}
-        <p class="mb-4">
-          {#each post.metadata.category as cat}
-            <a href="/blog/category/{cat.slug}" class="tag">#{cat.name}</a>
-          {/each}
-        </p>
-      {/if}
-
-      <PostAuthor {post}/>
     </div>
   </a>
 </div>
