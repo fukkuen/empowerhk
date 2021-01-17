@@ -1,0 +1,18 @@
+---
+title: "hiking1804"
+slug: "hiking1804"
+summary: ""
+createdAt: 2018-04-21
+category: ["hiking"]
+event_start_date: "2018-04-21"
+event_time: "09:30-14:30"
+event_location: "藍地水塘"
+event_fee: "免費"
+tags: "藍地水塘"
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2018-04-21-${slug}`;
+</script>
+
+write your event here...
