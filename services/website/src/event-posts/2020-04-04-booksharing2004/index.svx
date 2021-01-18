@@ -1,0 +1,18 @@
+---
+title: "booksharing2004"
+slug: "booksharing2004"
+summary: ""
+createdAt: 2020-04-04
+category: ["book-sharing"]
+event_start_date: "2020-04-04"
+event_time: "14:30-16:00"
+event_location: "將以Zoom Cloud Meetings軟件進行現場直播"
+event_fee: "全免"
+tags: "心靈勵志"
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2020-04-04-${slug}`;
+</script>
+
+write your event here...
