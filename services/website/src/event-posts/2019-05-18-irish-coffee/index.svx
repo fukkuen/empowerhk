@@ -8,7 +8,7 @@ event_start_date: "2019-05-18"
 event_time: "14:00-16:45"
 event_location: "Coffee Lover (香港觀塘偉業街171號偉業工業大廈3樓B室)"
 event_fee: "$380"
-tags: []
+tags: [愛爾蘭咖啡，咖啡工作坊]
 ---
 
 <script>
