@@ -15,5 +15,5 @@ tags: "領導力，團隊精神"
   const assetsBasePath = `blog-posts/2018-10-27-${slug}`;
 </script>
 
-名人面對面：領導才能與團隊精神
+名人面對面：領導才能與團隊精神<br>
 主講嘉賓：香港警務處榮休處長李明逵先生
