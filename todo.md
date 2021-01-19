@@ -10,3 +10,9 @@
 
 if markup could add class, many styles could be achieved (color, alignment, floated image)
 https://css-tricks.com/little-stuff-markdown-always-forget-google/
+
+tag link is broken
+
+event list mobile ui, change to top btm
+
+pagaintion

@@ -24,7 +24,7 @@
         <h3 class="text-lg text-gray-700">{post.metadata.summary}</h3>
       </div>
       <p class="mb-2 leading-8 text-lg text-gray-700">{post.body}</p>
-      <p class="text-blue-500 mb-4">Continue reading...</p>
+      <p class="text-blue-500 mb-4">繼續閱讀...</p>
       <p class="mb-4">
         {#each post.metadata.tags as t}
           <a href="/blog/tags/{t}" class="post-tag">#{t}</a>

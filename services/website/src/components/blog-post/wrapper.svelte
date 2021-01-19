@@ -37,7 +37,7 @@
   <link href="prism.css" rel="stylesheet" />
 </svelte:head>
 
-<div class="max-w-6xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+<div class="max-w-6xl mx-auto px-0 md:px-8 grid grid-cols-1 gap-0 md:grid-cols-4 md:gap-6 mb-8">
   <div class="col-span-3 bg-white">
 
     <img src="blog-posts/{post.metadata.createdAt.split('T')[0]}-{post.metadata.slug}/cover.jpg"
