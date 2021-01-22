@@ -26,6 +26,7 @@
 		  href: "/about"
 	  }
   ]
+
 </script>
 
 <div class="my-8">
