@@ -29,10 +29,13 @@
 </script>
 
 <div class="my-8">
-	<div class="flex justify-center mb-5 ">
+	<div class="flex justify-center mb-5 relative mx-auto max-w-screen-md px-4">
 		<a href="/" class="flex items-center">
 			<img src="images/logo.png" alt="logo" class="h-20">
-			<img src="images/logoType.png" alt="logo" class="h-10 ml-4">
+			<img src="images/logotype.png" alt="logo" class="h-10 ml-4">
+		</a>
+		<a class="absolute right-0" style="top: 1em" href="https://www.facebook.com/empower.hk/" target="_blank">
+			<img src="images/facebook.svg" alt="facebook" width="32">
 		</a>
 	</div>
 	<div class="flex justify-center text-center">

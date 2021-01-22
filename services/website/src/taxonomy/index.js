@@ -1,27 +1,33 @@
 export const event_categories = [
 	{
 		slug: 'be-our-guess',
-		name: '名人面對面'
+		name: '名人面對面',
+		color: '#7C3AED'
 	},
 	{
 		slug: 'hiking',
-		name: '遊山玩水'
+		name: '遊山玩水',
+		color: '#10B981'
 	},
 	{
 		slug: 'cultural',
-		name: '文化導賞'
+		name: '文化導賞',
+		color: "#F59E0B"
 	},
 	{
 		slug: 'nutrition',
-		name: '活學營養'
+		name: '活學營養',
+		color: "#F472B6"
 	},
 	{
 		slug: 'fitness',
-		name: '健體運動'
+		name: '健體運動',
+		color: "#3B82F6"
 	},
 	{
 		slug: 'book-sharing',
-		name: '讀書手會'
+		name: '讀書會',
+		color: "#6366F1"
 	}
 ]
 

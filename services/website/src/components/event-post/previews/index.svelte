@@ -10,7 +10,8 @@
 
 <div>
   <div class="text-right">
-    <a class="text-sm bg-purple-600 text-white px-4 folder"
+    <a class="text-white px-4 py-1 folder"
+       style="background: {post.metadata.category[0].color}"
        href="/event/category/{post.metadata.category[0].slug}">{post.metadata.category[0].name}</a>
   </div>
   <a href="event/{post.metadata.slug}" class="grid grid-cols-8 md:grid-cols-1 shadow rounded-lg overflow-hidden">

@@ -49,7 +49,7 @@
              on:click={() => {show_reg_info = false}}
              style="background: rgba(0,0,0,0.3)">
           <div class="mx-auto bg-white rounded-lg max-w-2xl p-4">
-            <h2 class="text-lg font-bold mb-4">可以用電郵或Facebook PM我地報名:</h2>
+            <h2 class="text-lg font-bold mb-4">歡迎以電郵或Facebook聯絡我們報名:</h2>
             <div class="flex justify-center">
               <a href="https://www.facebook.com/empower.hk/" target="_blank">
                 <img src="images/facebook.svg" alt="facebook" width="60">
