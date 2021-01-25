@@ -13,5 +13,6 @@ export default function formatDate (date) {
 	const weekday = week[d.getDay()]
 	const day = d.getDate()
 	const month = d.getMonth() + 1
-	return `${month}月${day}日 (星期${weekday})`
+	const year = d.getFullYear()
+	return `${year}年${month}月${day}日 (星期${weekday})`
 }
