@@ -3,8 +3,8 @@ import posts from "../_posts.js";
 const types = ['tags', 'author', 'category', 'archive']
 
 export const get = (req, res) => {
-	const { slug, type } = req.params;
-	console.log(slug, type)
+	let { slug, type } = req.params;
+	slug = decodeURI(slug)
 
 	if (!types.includes(type)) {
 		res.writeHead(404, {
