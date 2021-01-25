@@ -29,7 +29,7 @@
 	}
 </script>
 
-<div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="mx-auto px-4 max-w-screen-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 	{#each posts as post}
 		<Preview {post}/>
 	{/each}
