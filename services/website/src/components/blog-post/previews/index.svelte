@@ -27,7 +27,7 @@
       <p class="text-blue-500 mb-4">繼續閱讀...</p>
       <p class="mb-4">
         {#each post.metadata.tags as t}
-          <a href="/blog/tags/{t}" class="post-tag">#{t}</a>
+          <a href="/blog/tags/{encodeURI(t)}" class="post-tag">#{t}</a>
         {/each}
         {#each post.metadata.category as cat}
           <a href="/blog/category/{cat.slug}" class="post-tag">#{cat.name}</a>
