@@ -25,14 +25,16 @@
             <div>
               <nav class="grid row-gap-8">
                 {#each menuItems as menuItem}
-                <A href="{menuItem.href}" class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
-                  <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="{menuItem.svgPath}"/>
-                  </svg>
-                  <div class="text-base leading-6 font-medium text-gray-900">
-                    {menuItem.label}
-                  </div>
-                </A>
+                  <A href="{menuItem.href}" class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                    <div class="text-base leading-6 font-medium text-gray-900">
+                      {menuItem.name}
+                    </div>
+                  </A>
+                  {#if menuItem.children}
+                    {#each menuItem.children as child}
+                      <a href="{menuItem.href}/category/{child.slug}">{child.name}</a>
+                    {/each}
+                  {/if}
                 {/each}
               </nav>
             </div>
