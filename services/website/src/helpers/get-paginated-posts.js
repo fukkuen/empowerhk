@@ -5,7 +5,7 @@ export default function getPaginatedPosts (posts, page = 0, size = 9) {
 	const total = posts.length
 	return {
 		posts: filtered_events,
-		page: page,
+		page_number: page,
 		is_last: end >= total
 	}
 }

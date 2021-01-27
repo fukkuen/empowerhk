@@ -6,13 +6,12 @@
 </script>
 
 <script>
-	export let tags
 	export let authors
 	export let categories
 	export let segment
 </script>
 
-<div class="max-w-screen-lg mx-auto">
+<div class="max-w-screen-lg mx-auto px-4">
 	<div class="flex">
 		<div class="w-full">
 			<slot></slot>
@@ -21,39 +20,19 @@
 		{#if segment === undefined}
 			<div class="ml-4 flex-shrink-0 hidden md:block" style="min-width: 16em">
 				<div class="widget">
-					<h3 class="text-2xl mb-4">Category:</h3>
+					<h3 class="text-2xl mb-2 px-4">文章分類:</h3>
 					<ul>
 						{#each categories as t}
-							<li class="leading-none mb-4">
-								<a href="/blog/category/{t.slug}">
-									<div class="pb-1">{t.name}</div>
-								</a>
-							</li>
+							<li><a href="/blog?category={t.slug}" class="item hover:bg-gray-100">{t.name}</a></li>
 						{/each}
 					</ul>
 				</div>
 
-<!--				<div class="widget">-->
-<!--					<h3 class="text-2xl">Tag:</h3>-->
-<!--					<ul class="mb-20">-->
-<!--						{#each tags as t}-->
-<!--							<li><a href="/blog/tags/{t}">{t}</a></li>-->
-<!--						{/each}-->
-<!--					</ul>-->
-<!--				</div>-->
-
-<!--				<div class="widget">-->
-<!--					<h3 class="text-2xl">Archive:</h3>-->
-<!--					<ul class="mb-20">-->
-<!--						<li>..</li>-->
-<!--					</ul>-->
-<!--				</div>-->
-
 				<div class="widget">
-					<h3 class="text-2xl mb-4">Author:</h3>
+					<h3 class="text-2xl mb-2 px-4">作者:</h3>
 					<ul>
 						{#each authors as t}
-							<li><a href="/blog/author/{t.slug}">{t.name}</a></li>
+							<li><a href="/blog?author={t.slug}" class="item hover:bg-gray-100">{t.name}</a></li>
 						{/each}
 					</ul>
 				</div>
@@ -64,6 +43,11 @@
 
 <style>
 	.widget {
-		@apply p-4 shadow rounded mb-4 bg-white border border-gray-100;
+		@apply shadow rounded mb-4 py-4 bg-white border border-gray-100;
 	}
+
+	.item {
+		@apply px-4 py-2 block
+	}
+
 </style>

@@ -38,25 +38,16 @@
 	<div class="mx-auto max-w-screen-lg px-2 my-4">
 		<div class="flex items-center justify-around">
 			<div class="flex-1">
-				<SocialIcons/>
-			</div>
-			<div class="flex-1 flex justify-center">
-				<a href="/" class="flex items-center">
-					<img src="images/logo.png" alt="logo" class="h-10 sm:h-16 md:h-20">
-					<img src="images/logotype.png" alt="logo" class="h-5 sm:h-8 md:h-10 ml-1 sm:ml-2 md:ml-4">
-				</a>
-			</div>
-			<div class="flex-1 flex justify-end">
 				<button
 								on:click|stopPropagation={onMenuClicked}
 								type="button"
 								aria-label="Menu"
 								class="inline-flex items-center justify-center p-2 rounded-md
-            text-gray-400 focus:outline-none transition duration-150 ease-in-out">
+            text-gray-600 focus:outline-none transition duration-150 ease-in-out">
 					<svg
 									focusable="false"
 									aria-hidden="true"
-									class="h-6 w-6"
+									class="h-8 w-8"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor">
@@ -67,6 +58,15 @@
 										d="M4 6h16M4 12h16M4 18h16" />
 					</svg>
 				</button>
+			</div>
+			<div class="flex-1 flex justify-center">
+				<a href="/" class="flex items-center">
+					<img src="images/logo.png" alt="logo" class="h-10 sm:h-16 md:h-20">
+					<img src="images/logotype.png" alt="logo" class="h-5 sm:h-8 md:h-10 ml-1 sm:ml-2 md:ml-4">
+				</a>
+			</div>
+			<div class="flex-1 flex justify-end">
+				<SocialIcons/>
 			</div>
 		</div>
 	</div>
@@ -89,7 +89,7 @@
 					{#if item.children}
 						<div class="absolute hidden group-hover:block pt-1 shadow-md rounded w-48">
 							{#each item.children as child}
-								<a href="{item.href}/category/{child.slug}" class="block py-2 px-4 bg-white hover:bg-gray-100 text-blue-500">{child.name}</a>
+								<a href="{item.href}?category={child.slug}" class="block py-2 px-4 bg-white hover:bg-gray-100 text-blue-500">{child.name}</a>
 							{/each}
 						</div>
 					{/if}
