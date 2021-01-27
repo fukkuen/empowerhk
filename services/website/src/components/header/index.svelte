@@ -48,7 +48,7 @@
 			</div>
 			<div class="flex-1 flex justify-end">
 				<button
-								on:click|stopPropagation={() => (onMenuClicked('mobile'))}
+								on:click|stopPropagation={onMenuClicked}
 								type="button"
 								aria-label="Menu"
 								class="inline-flex items-center justify-center p-2 rounded-md
@@ -100,6 +100,8 @@
 
 	<MobileMenu isOpen={menu_opened} menuItems={items} />
 </div>
+
+<svelte:window on:click={() => (menu_opened = false)}/>
 
 <style>
 	.active {

@@ -6,7 +6,7 @@
 </script>
 
   {#if isOpen}
-    <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10">
+    <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-10">
       <div class="rounded-lg shadow-lg">
         <div class="rounded-lg shadow-xs bg-white divide-y-2 divide-gray-50">
           <div class="pt-5 pb-6 px-5 space-y-6">
@@ -31,10 +31,15 @@
                     </div>
                   </A>
                   {#if menuItem.children}
-                    {#each menuItem.children as child}
-                      <a href="{menuItem.href}/category/{child.slug}">{child.name}</a>
-                    {/each}
+                    <div class="grid grid-cols-2">
+                      {#each menuItem.children as child}
+                        <a href="{menuItem.href}/category/{child.slug}" class="col-1">
+                          {child.name}
+                        </a>
+                      {/each}
+                    </div>
                   {/if}
+                  <div class="h-1 my-4 bg-gray-100"></div>
                 {/each}
               </nav>
             </div>

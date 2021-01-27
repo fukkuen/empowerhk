@@ -21,7 +21,7 @@ const generateUrls = () =>
   readDirRecursively(EXPORT_DIR)
     .map((path) => path.substring(EXPORT_DIR.length))
     .map((path) => path.substring(0, path.length - "/index.html".length))
-    .map((path) => `https://www.mikenikles.com${path}`);
+    .map((path) => `https://empower.hk${path}`);
 
 const generateSitemap = () => `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${generateUrls()
