@@ -11,7 +11,7 @@
 	export let segment
 </script>
 
-<div class="max-w-screen-lg mx-auto px-4">
+<div class="max-w-screen-lg mx-auto px-0 sm:px-4">
 	<div class="flex">
 		<div class="w-full">
 			<slot></slot>

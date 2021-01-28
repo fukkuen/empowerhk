@@ -10,6 +10,8 @@
   let menu_opened = false
 
   const { page } = stores();
+  $: sub_cat = $page.query.category
+
   const items = [
 	  {
 		  name: "活動日誌",
@@ -93,7 +95,9 @@
 					{#if item.children}
 						<div class="absolute hidden group-hover:block pt-1 shadow-md rounded w-48">
 							{#each item.children as child}
-								<a href="{item.href}?category={child.slug}" class="block py-2 px-4 bg-white hover:bg-gray-100 text-blue-500">{child.name}</a>
+								<a href="{item.href}?category={child.slug}" class:font-bold={child.slug === sub_cat} class="block py-2 px-4 bg-white hover:bg-gray-100 text-blue-500">
+									{child.name} {child.slug === sub_cat}
+								</a>
 							{/each}
 						</div>
 					{/if}
