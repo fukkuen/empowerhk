@@ -22,4 +22,4 @@
 	}
 </script>
 
-<div use:onLazyLoad bind:this={image_el} class="bg-contain bg-no-repeat bg-center" style="padding-top: {pt}%;"></div>
+<div use:onLazyLoad class="bg-contain bg-no-repeat bg-center" style="padding-top: {pt}%;"></div>
