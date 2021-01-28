@@ -14,20 +14,24 @@
 	  {
 		  name: "活動日誌",
 		  href: "/event",
-		  children: event_categories
+		  children: event_categories,
+		  mobile: true
 	  },
 	  {
 		  name: "文章分享",
 		  href: "/blog",
-		  children: categories
+		  children: categories,
+		  mobile: true
 	  },
 	  {
 		  name: "團隊成員",
-		  href: "/team"
+		  href: "/team",
+		  mobile: false
 	  },
 	  {
 		  name: "使命宗旨",
-		  href: "/about"
+		  href: "/about",
+		  mobile: false
 	  }
   ]
   const onMenuClicked = () => menu_opened = !menu_opened
@@ -74,7 +78,7 @@
 	<div class="border-t-2 border-b-2">
 		<div class="mx-auto max-w-screen-md px-4 flex justify-between px-8">
 			{#each items as item}
-				<div class="group inline-block relative" class:active={item.href === '/'+segment}>
+				<div class="group sm:inline-block relative" class:hidden={!item.mobile} class:active={item.href === '/'+segment}>
 					<a href="{item.href}" class="inline-flex items-center py-2 px-4 text-blue-500 group-hover:bg-blue-500 group-hover:text-white sm:text-lg md:text-xl">
 						<span>{item.name}</span>
 						{#if item.children}

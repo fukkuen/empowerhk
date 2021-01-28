@@ -22,11 +22,11 @@
 <div class="flex content-center">
   {#each icons as icon}
     <A
-      class="text-gray-400 hover:text-blue-500 p-2"
+      class="text-gray-400 hover:text-blue-500 sm:p-2 p-1"
       href={icon.href}
       aria-label={icon.ariaLabel}>
       <svg
-        class="fill-current h-8 w-8"
+        class="fill-current w-6 h-6 sm:h-8 sm:w-8"
         focusable="false"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
