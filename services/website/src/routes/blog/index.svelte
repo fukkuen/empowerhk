@@ -9,10 +9,12 @@
 <script>
 	import Preview from '../../components/blog-post/previews/index.svelte'
 	import loadMoreHandler from "../../helpers/load-more-handler";
+	import range from "../../helpers/range";
 
 	export let posts
 	export let page_number
 	export let is_last
+	export let total_page_count
 
 	import { stores } from '@sapper/app';
 	import {categories, authors} from "../../taxonomy";
@@ -56,6 +58,20 @@
 	}
 </script>
 
+<div>
+{#each range(0, total_page_count) as i}
+	{#if !has_meta_query}
+		<a href='blog?page={i}' class="button mx-2">{i}</a>
+	{:else if author}
+		<a href='blog?author={author}&page={i}' class="button mx-2">{i}</a>
+	{:else if category}
+		<a href='blog?category={category}&page={i}' class="button mx-2">{i}</a>
+	{:else}
+		<a href='blog?tag={tag}&page={i}' class="button mx-2">{i}</a>
+	{/if}
+{/each}
+</div>
+
 {#if has_meta_query}
 	<div class="mb-2 p-4 bg-white shadow">
 		<h1 class="text-lg">
@@ -86,5 +102,6 @@
 {#if !is_last}
 	<div use:loadMoreHandler={loadMore} class="text-center my-4">更多...</div>
 {/if}
+
 
 
