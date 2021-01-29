@@ -1,4 +1,4 @@
-import posts from "./_posts";
+import posts from "../blog/_posts";
 import getPaginatedPosts from "../../helpers/get-paginated-posts";
 
 export const get = (req, res) => {

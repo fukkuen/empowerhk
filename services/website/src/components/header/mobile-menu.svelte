@@ -35,7 +35,7 @@
         {#if menuItem.children}
           <div class="bg-white border-t-2 border-b-2 border-gray-300">
             {#each menuItem.children as child}
-              <a href="{menuItem.href}?category={child.slug}"
+              <a href="{menuItem.href}/category/{child.slug}/1"
                  class:font-bold={child.slug === selected_category}
                  class="h-12 px-8 flex items-center text-gray-600">
                 {child.name}
