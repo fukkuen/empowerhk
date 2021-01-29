@@ -19,6 +19,18 @@
 	import {categories, authors} from "../../../../../taxonomy";
 	const { page } = stores();
 
+	let is_render = true
+	const saved_param = $page.params
+	$: {
+		if (saved_param !== $page.params) {
+			is_render = false
+			setTimeout(() => {
+				is_render = true
+			}, 10)
+		}
+	}
+
+
 	$: type = $page.params.type
 	$: slug = $page.params.slug
 	$: author = $page.params.type === 'author' && $page.params.slug
@@ -41,10 +53,6 @@
 	}
 </script>
 
-{#each range(1,total_page_count) as i}
-	<a href="blog/{type}/{slug}/{i}" class="w-4 h-4">{i}</a>
-{/each}
-
 {#if has_meta_query && slug !== 'all'}
 	<div class="mb-2 p-4 bg-white shadow">
 		<h1 class="text-lg">
@@ -62,16 +70,20 @@
 	</div>
 {/if}
 
-{#if posts && posts.length}
-	{#each posts as post}
-		<Preview {post}/>
-	{/each}
-	{#if !is_last}
-		<div use:loadMoreHandler={loadMore} class="text-center my-4">更多...</div>
+{#if is_render}
+	{#if posts && posts.length}
+		{#each posts as post}
+			<Preview {post}/>
+		{/each}
+		{#if !is_last}
+			<div use:loadMoreHandler={loadMore} class="text-center my-4">更多...</div>
+		{/if}
+	{:else}
+		Not found
 	{/if}
-{:else}
-	Not found
 {/if}
 
-
+{#each range(1,total_page_count) as i}
+	<a href="blog/{type}/{slug}/{i}" class="w-4 h-4">{i}</a>
+{/each}
 

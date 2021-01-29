@@ -13,7 +13,6 @@ export const get = (req, res) => {
   if (type === 'author') author = slug
   if (type === 'category') category = slug
   filtered_posts = posts.filter(p => {
-    console.log(slug)
     if (slug === 'all') return true
     if (tag) {
       if (tag) tag = decodeURI(tag)
@@ -24,7 +23,6 @@ export const get = (req, res) => {
       return p.metadata.category.map(c => c.slug).indexOf(category) > -1
     }
   })
-  console.log(filtered_posts)
   page = page || 0
   const size = 9
   const result = getPaginatedPosts(filtered_posts, page, size)
