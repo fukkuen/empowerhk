@@ -17,6 +17,7 @@
 	import { stores } from '@sapper/app';
 	import {categories, authors} from "../../taxonomy";
 	const { page } = stores();
+
 	$: author = $page.query.author
 	$: tag = $page.query.tag
 	$: category = $page.query.category
@@ -24,6 +25,18 @@
 	$: entity = !!category ?
 			categories.find(cat => cat.slug === category) :
 			!!author ? authors.find(a => a.slug === author) : {slug: tag, name: tag}
+
+	// to re-render during switch query (otherwise post cover wont update)
+	let saved_query = $page.query
+	let is_render = true
+	$: {
+		if (saved_query !== $page.query) {
+			is_render = false
+			setTimeout(() => {
+				is_render = true
+			}, 10)
+		}
+	}
 
 	const loadMore = async () => {
 		const query = {
@@ -36,7 +49,6 @@
 		try {
 			const res = await fetch(url)
 			const data = await res.json()
-			console.log(data)
 			const new_posts = data.posts
 			is_last = data.is_last
 			posts = [...posts, ...new_posts]
@@ -61,12 +73,14 @@
 	</div>
 {/if}
 
-{#if posts}
-	{#each posts as post}
-		<Preview {post}/>
-	{/each}
-{:else}
-	Not found
+{#if is_render}
+	{#if posts}
+		{#each posts as post}
+			<Preview {post}/>
+		{/each}
+	{:else}
+		Not found
+	{/if}
 {/if}
 
 {#if !is_last}
