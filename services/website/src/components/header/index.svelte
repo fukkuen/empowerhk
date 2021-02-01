@@ -80,7 +80,7 @@
 
 	<DesktopMenu {items} {segment} {selected_category}/>
 
-	<MobileMenu {items} {segment} {selected_category}  isOpen={menu_opened}/>
+	<MobileMenu {items} {segment} {selected_category}  isOpen={menu_opened} on:close={() => (menu_opened = false)}/>
 </div>
 
 <svelte:window on:click={() => (menu_opened = false)}/>
