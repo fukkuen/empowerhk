@@ -12,7 +12,7 @@
 
 	export let posts
 	export let is_last
-	let page_number
+	export let page_number
 	const { page } = stores();
 
 	let is_render = true
@@ -31,7 +31,8 @@
 
 	const loadMore = async () => {
 		page_number = Number(page_number) + 1
-		const res = await fetch(`blog/${type}/${slug}/${page_number}.json`)
+		const res = await fetch(`event/${type}/${slug}/${page_number}.json`)
+		console.log('load more' + res)
 		const data = await res.json()
 		const new_posts = data.posts
 		is_last = data.is_last
