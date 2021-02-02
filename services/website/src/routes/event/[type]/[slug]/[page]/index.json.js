@@ -3,7 +3,6 @@ import getPaginatedPosts from "../../../../../helpers/get-paginated-posts";
 
 export const get = (req, res) => {
   let { type, slug, page } = req.params;
-  page = Number(page) - 1 //
 
   let filtered_posts = posts
   let tag
@@ -23,7 +22,7 @@ export const get = (req, res) => {
       return p.metadata.category.map(c => c.slug).indexOf(category) > -1
     }
   })
-  page = page || 0
+  page = page || 1
   const size = 9
   const result = getPaginatedPosts(filtered_posts, page, size)
 

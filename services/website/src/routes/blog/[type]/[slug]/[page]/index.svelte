@@ -83,7 +83,7 @@
 	{/if}
 {/if}
 
-{#each range(1,total_page_count) as i}
+{#each range(0,total_page_count) as i}
 	<a href="blog/{type}/{slug}/{i}" class="w-4 h-4">{i}</a>
 {/each}
 

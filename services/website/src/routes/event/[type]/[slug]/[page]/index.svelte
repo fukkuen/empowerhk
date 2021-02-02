@@ -9,10 +9,12 @@
 	import Preview from '../../../../../components/event-post/previews/index.svelte'
 	import loadMoreHandler from "../../../../../helpers/load-more-handler";
 	import { stores } from '@sapper/app';
+	import range from "../../../../../helpers/range";
 
 	export let posts
 	export let is_last
 	export let page_number
+	export let total_page_count
 	const { page } = stores();
 
 	let is_render = true
@@ -32,7 +34,6 @@
 	const loadMore = async () => {
 		page_number = Number(page_number) + 1
 		const res = await fetch(`event/${type}/${slug}/${page_number}.json`)
-		console.log('load more' + res)
 		const data = await res.json()
 		const new_posts = data.posts
 		is_last = data.is_last
@@ -51,3 +52,7 @@
 {#if !is_last}
 	<div use:loadMoreHandler={loadMore} class="text-center my-4">更多...</div>
 {/if}
+
+{#each range(0,total_page_count) as i}
+	<a href="blog/{type}/{slug}/{i}" class="w-4 h-4">{i}</a>
+{/each}
