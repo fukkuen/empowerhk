@@ -39,11 +39,11 @@
 
 <div class="container mx-auto px-8">
 	{#each team as t}
-		<div class="flex mb-8">
+		<div class="block sm:flex mb-8">
 			<div class="flex-shrink-0">
-				<img src={t.image} alt={t.name} class="w-20 sm:w-40 rounded-full">
+				<img src={t.image} alt={t.name} class="w-40 rounded-full mx-auto">
 			</div>
-			<div class="ml-8">
+			<div class="mt-2 sm:ml-8">
 				<h3 class="mb-4 text-blue-500 text-xl">{t.name}</h3>
 				{#each t.p as _p}
 					<p class="mb-4">{_p}</p>
