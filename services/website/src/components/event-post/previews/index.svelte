@@ -25,7 +25,7 @@
       <p class="text-blue-800">📅 <span class="ml-2">{formatDate(post.metadata.event_start_date)}</span></p>
       <p class="mb-4">
         {#each post.metadata.tags as t}
-          <a href="/teatime/tags/{encodeURI(t)}" class="text-xs text-gray-500 mr-2">#{t}</a>
+          <div class="text-xs text-gray-500 mr-2">#{t}</div>
         {/each}
       </p>
     </div>
