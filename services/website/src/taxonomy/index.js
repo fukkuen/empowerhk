@@ -33,18 +33,6 @@ export const event_categories = [
 
 export const authors = [
 	{
-		slug: 'joyce',
-		name: 'Joyce Wong'
-	},
-	{
-		slug: 'melissa',
-		name: 'Melissa Wong'
-	},
-	{
-		slug: 'king',
-		name: 'King'
-	},
-	{
 		slug: 'admin',
 		name: 'Admin'
 	},
@@ -53,8 +41,20 @@ export const authors = [
 		name: 'Cliff Wong'
 	},
 	{
+		slug: 'joyce',
+		name: 'Joyce Wong'
+	},
+	{
+		slug: 'king',
+		name: 'King'
+	},
+	{
 		slug: 'mang',
 		name: 'Mang Ng'
+	},
+	{
+		slug: 'melissa',
+		name: 'Melissa Wong'
 	}
 ]
 
