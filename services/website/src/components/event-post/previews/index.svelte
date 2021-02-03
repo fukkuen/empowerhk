@@ -12,7 +12,7 @@
   <div class="text-right">
     <a class="text-white px-4 py-1 folder"
        style="background: {post.metadata.category[0].color}"
-       href="/event/category/{post.metadata.category[0].slug}">{post.metadata.category[0].name}</a>
+       href="/event/category/{post.metadata.category[0].slug}/1">{post.metadata.category[0].name}</a>
   </div>
   <a href="event/{post.metadata.slug}" class="block shadow-md rounded-lg overflow-hidden">
     <div

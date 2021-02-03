@@ -24,6 +24,7 @@
     "images:convert:jpgtojp2": "find ./static/blog-posts/ -type f -iname \"*.jpg\" -exec bash -c '[ ! -f \"$(dirname \"$0\")/$(basename \"$0\" .jpg).jp2\" ] && convert \"$0\" -quiet -quality 0 \"$(dirname \"$0\")/$(basename \"$0\" .jpg).jp2\"' {} \\;"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.3",
     "compression": "^1.7.1",
     "polka": "next",
     "sirv": "^0.4.0"
@@ -43,7 +44,7 @@
     "front-matter": "^4.0.2",
     "mdsvex": "^0.8.0",
     "npm-run-all": "^4.1.5",
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.4",
     "reading-time": "^1.2.0",
     "rehype-picture": "^3.0.0",
     "rollup": "^2.3.4",
@@ -52,6 +53,6 @@
     "sapper": "^0.27.0",
     "svelte": "^3.0.0",
     "svelte-preprocess": "^3.9.7",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^2.0.2"
   }
 }

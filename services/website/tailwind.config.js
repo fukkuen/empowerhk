@@ -8,6 +8,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {},
+  variants: {
+    display: ['responsive','group-hover']
+  },
   plugins: [require("@tailwindcss/typography")],
 };
