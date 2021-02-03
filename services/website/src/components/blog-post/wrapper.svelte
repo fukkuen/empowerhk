@@ -30,7 +30,7 @@
       <slot />
       <p>
         {#each post.metadata.tags as t}
-          <a href="/blog/tag/{encodeURI(t)}" class="post-tag">#{t}</a>
+          <a href="/blog/tag/{encodeURI(t)}/1" class="post-tag">#{t}</a>
         {/each}
       </p>
     </div>
