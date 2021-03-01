@@ -8,7 +8,7 @@
 
 <script>
   import BlogPostWrapper from "../../../components/event-post/wrapper.svelte";
-  import BlogPost, { metadata } from "../../../event-posts/2021-01-15-mark-to/index.svx";
+  import BlogPost, { metadata } from "../../../event-posts/2021-01-23-mark-to/index.svx";
 
   export let post;
 </script>

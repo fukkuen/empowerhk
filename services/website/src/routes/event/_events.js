@@ -3,7 +3,6 @@ import getAllPosts from '../../helpers/get-all-post'
 import processTagString from '../../helpers/process-tag-string'
 
 const events = getAllPosts.getAllPosts('./src/event-posts', 'event_start_date');
-
 const joinCategory = post => {
 	if (post.metadata.category) {
 		post.metadata.category = post.metadata.category.map(slug => {
