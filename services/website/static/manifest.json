@@ -3,7 +3,7 @@
   "theme_color": "#1a202c",
   "name": "Mike's Blog",
   "short_name": "Mike's Blog",
-  "display": "minimal-ui",
+  "display": "standalone",
   "start_url": "/",
   "icons": [
     {
