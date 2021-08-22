@@ -1,7 +1,7 @@
 ---
 title: "拼盡無悔的運動精神"
 slug: "walter-cheung-sharing"
-summary: "前恒生銀行總裁高級顧問、恒生乒乓球學院聯合創辦人、馬拉松達人"
+summary: "前恒生銀行總裁高級顧問、恒生乒乓球學院聯合創辦人、馬拉松達人張樹槐(Walter)"
 createdAt: 2021-09-10
 category: ["be-our-guess"]
 event_start_date: "2021-09-10"
