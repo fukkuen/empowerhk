@@ -1,5 +1,5 @@
 ---
-title: "stretching_210604"
+title: "筋長一寸，壽延十年"
 slug: "stretching-210604"
 summary: ""
 createdAt: 2021-04-06
