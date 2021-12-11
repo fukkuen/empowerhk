@@ -1,7 +1,7 @@
 ---
 title: "兩岸三地書店形態的發展"
 slug: "professor-chan-book"
-summary: "曾任香港商務印書館總經過理兼總編輯、聯合出版集團有限公司副董事長兼總裁，亦是著名的出版家陳萬雄博士"
+summary: "曾任香港商務印書館總經理兼總編輯、聯合出版集團有限公司副董事長兼總裁，亦是著名的出版家陳萬雄博士"
 createdAt: 2021-11-06
 category: ["be-our-guess"]
 event_start_date: "2021-11-06"
