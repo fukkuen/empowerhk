@@ -1,6 +1,6 @@
 ---
 title: "體有憾 心無缺 生命鬥士活出精彩每一天"
-slug: "linda-hung-speech-220115"
+slug: "linda-220115"
 summary: "龔黃螢敏女士Linda"
 createdAt: 2022-01-15
 category: ["be-our-guess"]
