@@ -1,7 +1,7 @@
 ---
 title: "體有憾 心無缺 生命鬥士活出精彩每一天"
 slug: "龔黃螢敏女士Linda"
-summary: ""
+summary: "龔黃螢敏女士Linda"
 createdAt: 2022-01-15
 category: ["be-our-guess"]
 event_start_date: "2022-01-15"
@@ -12,7 +12,7 @@ tags: "再生勇士"
 ---
 
 <script>
-  const assetsBasePath = `blog-posts/2021-01-15-${slug}`;
+  const assetsBasePath = `blog-posts/2022-01-15-${slug}`;
 </script>
 
 1月名人面對面，Empower榮幸邀得龔黃螢敏女士Linda，為我們分享她不屈不撓的人生奮鬥歷程！💪🏻 <br>
