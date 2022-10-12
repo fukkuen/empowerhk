@@ -3,7 +3,7 @@ title: "以天賦與興趣　改寫人生方程式"
 slug: "stephen"
 summary: "QooApp創辦人蒲得志先生(Stephen)"
 createdAt: 2016-11-27
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2016-11-27"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館C室"

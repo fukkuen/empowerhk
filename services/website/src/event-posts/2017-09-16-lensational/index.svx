@@ -3,7 +3,7 @@ title: "如何讓一家社企可持續經營並蓬勃發展"
 slug: "lensational"
 summary: "非牟利社會企業 Lensational 創辦人趙舜茹小姐"
 createdAt: 2017-09-16
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2017-09-16"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館會議室B"

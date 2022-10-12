@@ -3,7 +3,7 @@ title: "程式設計，與我何干？"
 slug: "ray-cheung"
 summary: "香港首家Apps Lab創辦人張澤松博士Ray"
 createdAt: 2018-01-20
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2018-01-20"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館會議室B"

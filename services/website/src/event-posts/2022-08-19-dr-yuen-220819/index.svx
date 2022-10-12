@@ -3,7 +3,7 @@ title: "《擇善固執 功著杏林》"
 slug: "dr-yuen-220819"
 summary: "袁維康醫生"
 createdAt: 2022-08-19
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2022-08-19"
 event_time: "19:30-20:45"
 event_location: "旺角登打士街56號家樂坊15樓安利體驗館會議室，Zoom同步直播"

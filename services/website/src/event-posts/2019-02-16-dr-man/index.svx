@@ -3,7 +3,7 @@ title: "品味咖啡 探索人生"
 slug: "dr-man"
 summary: "文桂芳博士(Dr May Man)"
 createdAt: 2019-02-16
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2019-02-16"
 event_time: "19:15-21:30"
 event_location: "旺角家樂坊15樓安利體驗館"

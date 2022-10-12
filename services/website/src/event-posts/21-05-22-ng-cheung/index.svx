@@ -3,7 +3,7 @@ title: "堅毅自強 璀璨人生 "
 slug: "ng-cheung"
 summary: "全球首位「輪椅警察」兼香港最佳運動員伍強先生"
 createdAt: 21-05-22
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2016-05-22"
 event_end_date: ""
 tags: []

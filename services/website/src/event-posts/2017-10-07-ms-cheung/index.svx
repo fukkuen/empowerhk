@@ -3,7 +3,7 @@ title: "出版業在國際大都會可以扮演甚麼角色"
 slug: "ms-cheung"
 summary: "商務印書館前總編輯張倩儀女士"
 createdAt: 2017-10-07
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2017-10-07"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館會議室B"

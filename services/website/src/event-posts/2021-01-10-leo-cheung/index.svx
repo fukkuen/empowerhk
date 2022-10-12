@@ -3,7 +3,7 @@ title: "走過高山低谷 迎來海濶天空"
 slug: "leo-cheung"
 summary: "張昆隆先生 (Leo)"
 createdAt: 2021-01-10
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2015-12-06"
 event_end_date: ""
 tags: []

@@ -3,7 +3,7 @@ title: "【送給吃貨們😆】美食與文化交融～從瑞士領事的雞�
 slug: "so210424"
 summary: "蘇鋭鴻校長"
 createdAt: 2021-04-24
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2021-04-24"
 event_time: "11:30-12:30"
 event_location: "九龍旺角登打士街56號家樂坊15樓安利體驗館會議室D"

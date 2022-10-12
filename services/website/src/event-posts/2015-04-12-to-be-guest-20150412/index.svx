@@ -3,7 +3,7 @@ title: "名人飯局- 第一炮"
 slug: "to-be-guest-20150412"
 summary: "聽成功人士一言勝讀百年書 "
 createdAt: 2015-04-12
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2015-04-12"
 event_end_date: ""
 tags: []

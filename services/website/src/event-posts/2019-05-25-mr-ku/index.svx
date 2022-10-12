@@ -3,7 +3,7 @@ title: "5 G 發展新方向 + 職場音樂星輝路"
 slug: "mr-ku"
 summary: "和記電訊香港執行董事兼行政總裁、胡琴高手古星輝先生"
 createdAt: 2019-05-25
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2019-05-25"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號家樂坊15樓安利體驗館"

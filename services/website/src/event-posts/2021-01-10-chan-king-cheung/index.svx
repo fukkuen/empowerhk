@@ -4,7 +4,7 @@ title: "香港如何走下去？
 slug: "chan-king-cheung"
 summary: "《信報》前總編輯、資深傳媒工作者陳景祥先生"
 createdAt: 2021-01-10
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2015-09-13"
 event_end_date: ""
 tags: []

@@ -3,7 +3,7 @@ title: "品味咖啡 探索人生 第二擊"
 slug: "dr-may-man"
 summary: "香港咖啡業界首位女性國際咖啡師監考官、Coffee Lover咖啡課程總監文桂芳博士 Dr May Man"
 createdAt: 2020-09-13
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2020-09-13"
 event_time: "15:00-16:00"
 event_location: "ZOOM"

@@ -3,7 +3,7 @@ title: "邂逅·連結·突破·啟發 - 紥作的延續"
 slug: "mo-cheng"
 summary: "鄭少武Mo- Draw2 Studio 創辦人"
 createdAt: 2019-09-21
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2019-09-21"
 event_time: "19:15-21:30"
 event_location: "旺角家樂坊15樓安利體驗館會議室B"

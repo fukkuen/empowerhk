@@ -3,7 +3,7 @@ title: "以畫會友 傳遞快樂"
 slug: "christa-chan"
 summary: "香港平面設計師及插畫師陳健殷小姐Christa"
 createdAt: 2020-06-27
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2020-06-27"
 event_time: "17:00-18:00"
 event_location: "ZOOM"

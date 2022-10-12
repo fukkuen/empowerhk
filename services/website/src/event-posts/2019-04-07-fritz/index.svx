@@ -3,7 +3,7 @@ title: "偏見日本 ~ 關於日本文化的三個迷思"
 slug: "fritz"
 summary: "日本史學家胡煒權博士"
 createdAt: 2019-04-07
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2019-04-07"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號家樂坊15樓安利體驗館會議室B"

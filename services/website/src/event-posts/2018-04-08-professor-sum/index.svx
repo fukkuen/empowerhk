@@ -3,7 +3,7 @@ title: "蘇東坡的多采人生對現代優質生活的啟示"
 slug: "professor-sum"
 summary: "香港電台清談節目《清晨爽利》及《講東講西》嘉賓主持岑練英教授"
 createdAt: 2018-04-08
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2018-04-08"
 event_time: "19:15-21:30"
 event_location: ""

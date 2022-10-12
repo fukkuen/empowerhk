@@ -3,7 +3,7 @@ title: "年輕也可以不一樣"
 slug: "terry-mak"
 summary: "Media Station Ltd 創辦人麥志豪先生 (Terry)"
 createdAt: 2021-01-10
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2016-04-17"
 event_end_date: ""
 tags: [ "年輕創業"]

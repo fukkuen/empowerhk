@@ -3,7 +3,7 @@ title: "2021投資基本功"
 slug: "mark-to"
 summary: "永豐金融資產管理董事總經理涂國彬先生(Mark To)"
 createdAt: 2021-01-23
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2021-01-23"
 event_time: "11:00-12:00"
 event_location: "ZOOM及Facebook現場直播"

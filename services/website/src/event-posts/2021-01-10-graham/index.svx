@@ -4,7 +4,7 @@ slug: "graham"
 summary: "中銀國際證券有限公司董事總經理兼證券銷售及研究板塊副主管伍志濤先生 (Graham)
 "
 createdAt: 2021-01-10
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2015-11-22"
 event_end_date: ""
 tags: []

@@ -4,7 +4,7 @@ title: "創新與領導思維-金融科技(Fin Tech) 大變革
 slug: "michael-leung"
 summary: "梁建文先生(Michael Leung)"
 createdAt: 2021-01-10
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2015-08-22"
 event_end_date: ""
 tags: []

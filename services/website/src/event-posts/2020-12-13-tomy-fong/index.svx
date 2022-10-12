@@ -3,7 +3,7 @@ title: "暢談手工啤酒 酵釀香醇人生"
 slug: "tomy-fong"
 summary: "國際啤酒評審Tomy方啟聰先生"
 createdAt: 2020-12-13
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2020-12-13"
 event_time: "17:00-18:00"
 event_location: "ZOOM及Facebook現場具播"

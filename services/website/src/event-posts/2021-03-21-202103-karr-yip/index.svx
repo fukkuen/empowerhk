@@ -3,7 +3,7 @@ title: "築．愛～從建築設計到建立關係的應用哲學"
 slug: "202103-karr-yip"
 summary: "葉小卡先生 藝術家．設計師．香港設計師協會會長"
 createdAt: 2021-03-21
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2021-03-21"
 event_time: "15:00-16:00"
 event_location: "旺角登打士街56號家樂坊15樓安利體驗館及ZOOM作現場直播"

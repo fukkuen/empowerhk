@@ -3,7 +3,7 @@ title: "2020環球經濟 能否否極泰來？"
 slug: "pro-chong"
 summary: "劉佐德全球經濟及金融研究所常務所長、香港中文大學經濟學系副教授莊太量教授"
 createdAt: 2020-03-15
-category: ["be-our-guess"]
+category: ["be-our-guest"]
 event_start_date: "2020-03-15"
 event_time: "14:30-15:30"
 event_location: "ZOOM"
