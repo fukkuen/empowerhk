@@ -1,0 +1,29 @@
+---
+title: "世界在變 惜食始終不變"
+slug: "astor-wong2211"
+summary: "惜食堂夥伴及資源發展部主管 王敏儀小姐 Astor Wong"
+createdAt: 2022-11-18
+category: ["be-our-guest"]
+event_start_date: "2022-11-18"
+event_time: "19：30-20：45"
+event_location: "旺角家樂坊15樓安利體驗館美妍教室"
+event_fee: "$40"
+tags: "惜食堂"
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2022-11-18-${slug}`;
+</script>
+
+主講嘉賓：<br>
+惜食堂夥伴及資源發展部主管 王敏儀小姐 Astor Wong
+
+分享重點：<br>
+💡 惜食堂從20個飯盒開始<br>
+💡 惜食堂如何與社會一同改變<br>
+💡 人人都可以成立自己的惜食堂
+
+日期：11月18日（五）<br>
+時間：晚上7:30-8:45<br>
+地點：旺角登打士街56號家樂坊15樓安利體驗館會議室，Zoom同步直播<br>
+費用：$40
