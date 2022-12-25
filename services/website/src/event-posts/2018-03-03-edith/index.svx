@@ -3,7 +3,7 @@ title: "疾風中的神奇女俠"
 slug: "edith"
 summary: "香港賽馬會首位女性資訊科技事務司、 香港復康會副主席莫關雁卿博士Edith"
 createdAt: 2018-03-03
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2018-03-03"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館會議室B"

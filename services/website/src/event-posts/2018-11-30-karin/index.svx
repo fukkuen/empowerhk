@@ -3,7 +3,7 @@ title: "年青創業＋網絡營銷新趨勢"
 slug: "karin"
 summary: "超凡網絡Guru Online聯合創辦人兼執行董事尹瑋婷小姐Karin"
 createdAt: 2018-11-30
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2018-11-30"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館會議室B"

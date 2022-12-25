@@ -3,7 +3,7 @@ title: "敢夢敢動　魔幻人生"
 slug: "kelvin-cheung"
 summary: "香港公開舞台魔術大賽冠軍張君恒先生(Kelvin)"
 createdAt: 2021-01-10
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2016-06-25"
 event_end_date: ""
 tags: []

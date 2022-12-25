@@ -6,7 +6,7 @@ const type = process.env.EVENT === '1' ? 'event' : 'blog'
 
 const categories = ['nutrition', 'reflection', 'spiritual', 'fitness']
 
-const event_categories = ['be-our-guest', 'hiking', 'cultural', 'nutrition', 'fitness', 'book-sharing']
+const event_categories = ['be-our-guess', 'hiking', 'cultural', 'nutrition', 'fitness', 'book-sharing']
 
 const title_prompt = {
   type: "input",

@@ -3,7 +3,7 @@ title: "終生學習 擁抱變化"
 slug: "eric-sin"
 summary: "萬事達卡商業支付業務主管冼家逸先生(Eric)"
 createdAt: 2021-01-10
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2016-09-24"
 event_end_date: ""
 tags: []

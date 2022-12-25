@@ -3,7 +3,7 @@ title: "修己善群　治病醫心"
 slug: "dexter-leung"
 summary: "現任香港眼科學會會長、青光眼專家、香港十大傑出青年梁裕龍醫生"
 createdAt: 2021-01-10
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2016-07-24"
 event_end_date: ""
 tags: []

@@ -3,7 +3,7 @@ title: "麥秋笑談戲劇人生"
 slug: "james-mak"
 summary: "香港戲劇協會終身成就獎得主、戲劇界宗師麥秋(James)"
 createdAt: 2017-11-04
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2017-11-04"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館會議室"

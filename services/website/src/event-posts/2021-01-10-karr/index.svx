@@ -3,7 +3,7 @@ title: "名人飯局：年青創業"
 slug: "karr"
 summary: "著名建築師、設計師、手機應用程式開發商葉小卡先生 (Mr Karr Yip)"
 createdAt: 2015-05-09
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2015-05-09"
 event_end_date: ""
 tags: ["年青創業"]

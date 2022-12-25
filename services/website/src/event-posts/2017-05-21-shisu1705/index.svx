@@ -3,7 +3,7 @@ title: "堅毅轉身 - 職場女強人變身太極女俠"
 slug: "shisu1705"
 summary: ""
 createdAt: 2017-05-21
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2017-05-21"
 event_time: "19:30-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館"

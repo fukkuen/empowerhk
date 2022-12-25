@@ -3,7 +3,7 @@ title: "該如何讀中國這本書？"
 slug: "dr-luk1706"
 summary: "中國近代及現代史專家、香港大學文學院前副院長陸人龍教授"
 createdAt: 2017-06-17
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2017-06-17"
 event_time: "19:30-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館C室"

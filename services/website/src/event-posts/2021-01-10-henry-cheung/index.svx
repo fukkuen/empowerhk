@@ -3,7 +3,7 @@ title: "垃圾堆找名畫  - 由窮過乞兒到40歲退休"
 slug: "henry-cheung"
 summary: "張國樑先生 (Henry)"
 createdAt: 2021-01-10
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2016-01-17"
 event_end_date: ""
 tags: []

@@ -3,7 +3,7 @@ title: "Sense and Sensibility ~ 不一樣的 AO 與藝術工作者，分享遊�
 slug: "elia-wong"
 summary: "高級政務官兼藝術創作博士生黃藝蕾女士 (Elia)"
 createdAt: 2021-01-10
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2015-07-26"
 event_end_date: ""
 tags: []

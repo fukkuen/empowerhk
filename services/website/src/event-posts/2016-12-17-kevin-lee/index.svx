@@ -3,7 +3,7 @@ title: "擁抱改變，乘勢而起，創出科網新天地"
 slug: "kevin-lee"
 summary: "紅點子創作創辦人兼行政總裁 李嘉俊先生(Kevin) "
 createdAt: 2016-12-17
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2016-12-17"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館"

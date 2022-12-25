@@ -3,7 +3,7 @@ title: "以法儒治商-論創業精神與香港樓市"
 slug: "denny-wong"
 summary: "中原地產創辦人王文彥先生"
 createdAt: 2021-01-10
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2016-03-12"
 event_end_date: ""
 tags: ["創業精神", "香港樓市"]

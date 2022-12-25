@@ -3,7 +3,7 @@ title: "畢業旋即創業　經歷九死一生"
 slug: "alan-lam"
 summary: "科研家、企業家、作家、「不一樣的傑青」林曉鋒博士"
 createdAt: 2021-01-10
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2016-10-29"
 event_end_date: ""
 tags: ["年輕創業"]

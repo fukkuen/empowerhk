@@ -3,7 +3,7 @@ title: "網絡保安 你我都要識"
 slug: "eric-wong"
 summary: "黃廣達先生 Eric Wong"
 createdAt: 2020-08-16
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2020-08-16"
 event_time: "16:00-17:00"
 event_location: "ZOOM"

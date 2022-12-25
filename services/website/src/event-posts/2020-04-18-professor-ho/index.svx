@@ -3,7 +3,7 @@ title: "極深研幾 通天下志"
 slug: "professor-ho"
 summary: "香港極地研究中心創辦人何建宗教授"
 createdAt: 2020-04-18
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2020-04-18"
 event_time: "14:30-15:45"
 event_location: "ZOOM"

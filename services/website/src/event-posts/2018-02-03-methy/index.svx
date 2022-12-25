@@ -3,7 +3,7 @@ title: "如何透過社交媒體令你愛上一個品牌？"
 slug: "methy"
 summary: "csl Mobile & The Club 甄坤儀小姐Methy"
 createdAt: 2018-02-03
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2018-02-03"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館會議室B"

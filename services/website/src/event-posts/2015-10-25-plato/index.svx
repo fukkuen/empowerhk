@@ -3,7 +3,7 @@ title: "plato"
 slug: "plato"
 summary: "Plato 先生"
 createdAt: 2015-10-25
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2015-10-25"
 event_end_date: ""
 tags: []

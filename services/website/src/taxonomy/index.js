@@ -1,6 +1,6 @@
 export const event_categories = [
 	{
-		slug: 'be-our-guest',
+		slug: 'be-our-guess',
 		name: '名人面對面',
 		color: '#7C3AED'
 	},

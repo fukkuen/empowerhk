@@ -3,7 +3,7 @@ title: "傳媒生涯樂與怒"
 slug: "chris-yeung"
 summary: "香港記者協會主席楊健興先生Chris"
 createdAt: 2017-08-13
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2017-08-13"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館"

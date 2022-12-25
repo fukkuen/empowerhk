@@ -3,7 +3,7 @@ title: "解構中美貿易戰－烽煙四起・還是戰火平息？"
 slug: "professor-chong"
 summary: "香港中文大學經濟學系副教授-莊太量教授"
 createdAt: 2019-01-19
-category: ["be-our-guest"]
+category: ["be-our-guess"]
 event_start_date: "2019-01-19"
 event_time: "19:15-21:30"
 event_location: "九龍旺角登打士街56號柏裕商業中心15樓安利體驗館會議室B"
