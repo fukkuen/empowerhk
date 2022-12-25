@@ -5,7 +5,7 @@ Inspired by https://www.mikenikles.com/
 
 ## Create a new blog post
 
-1. Use the following command:
+1. Use the following command: eeee
 
    ```bash
    npm run generate blog-post "My blog post title"
