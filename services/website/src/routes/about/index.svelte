@@ -12,5 +12,4 @@
 
 		<p class="mb-4">在結伴同行的路上，「Empower人」冀以生命影響生命，點燃彼此的生命活力，並以仁愛之心貢獻社會，愛澤承傳，Empower our Community，Empower the World！</p>
 	</div>
-
 </div>
